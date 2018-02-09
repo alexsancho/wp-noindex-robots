@@ -1,0 +1,23 @@
+{
+  "name": "alexsancho/wp-noindex-robots",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "description": "Uses robots.txt to not index development/testing environments of this site with search-engines",
+  "homepage": "https://github.com/alexsancho/wp-noindex-robots",
+  "authors": [
+    {
+      "name": "Alex Sancho",
+      "email": "alex@alexsancho.name",
+      "homepage": "https://github.com/alexsancho",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "wordpress", "noindex", "robots", "development", "staging"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "roave/security-advisories": "dev-master",
+    "composer/installers": "^v1.0.12"
+  }
+}
